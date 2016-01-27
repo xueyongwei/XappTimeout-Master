@@ -3,10 +3,10 @@
 X系列为自己开发中用到的一些封装起来的，若代码有问题或者有更好的建议欢迎留言或发送邮件到xueyongwei@foxmail.com
 
 使用方法：
-1.拖拽XappTimeout文件夹到工程 \n
-2.在Supporting Files目录下的main.m文件里 \n
-替换
-return UIApplicationMain(argc, nil, NSStringFromClass([AppDelegate class]));
-为
-return UIApplicationMain(argc, argv,NSStringFromClass([XappTimeout class]) , NSStringFromClass([AppDelegate class]));
-3.在XappTimeoutwen文件夹下XappTimeoutwen.m文件的最下方-(void)XtimeoutAction方法里更改自己的目的。
+1.拖拽XappTimeout文件夹到工程         
+2.在Supporting Files目录下的main.m文件里        
+替换         
+return UIApplicationMain(argc, nil, NSStringFromClass([AppDelegate class]));         
+为        
+return UIApplicationMain(argc, argv,NSStringFromClass([XappTimeout class]) , NSStringFromClass([AppDelegate class]));       
+3.在XappTimeoutwen文件夹下XappTimeoutwen.m文件的最下方-(void)XtimeoutAction方法里更改自己的目的。      
