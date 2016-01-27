@@ -13,6 +13,10 @@
 		47609CD11C58D40D00C0390A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47609CCF1C58D40D00C0390A /* Main.storyboard */; };
 		47609CD31C58D40D00C0390A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47609CD21C58D40D00C0390A /* Assets.xcassets */; };
 		47609CD61C58D40D00C0390A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47609CD41C58D40D00C0390A /* LaunchScreen.storyboard */; };
+		47609CE01C58D45B00C0390A /* XappTimeout.m in Sources */ = {isa = PBXBuildFile; fileRef = 47609CDF1C58D45B00C0390A /* XappTimeout.m */; };
+		47609CE51C58D54500C0390A /* LockDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47609CE31C58D54500C0390A /* LockDemoViewController.m */; };
+		47609CE61C58D54500C0390A /* LockDemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 47609CE41C58D54500C0390A /* LockDemoViewController.xib */; };
+		47609CEE1C58D94700C0390A /* BViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47609CED1C58D94700C0390A /* BViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,13 @@
 		47609CD21C58D40D00C0390A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		47609CD51C58D40D00C0390A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		47609CD71C58D40D00C0390A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47609CDE1C58D45B00C0390A /* XappTimeout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XappTimeout.h; sourceTree = "<group>"; };
+		47609CDF1C58D45B00C0390A /* XappTimeout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XappTimeout.m; sourceTree = "<group>"; };
+		47609CE21C58D54500C0390A /* LockDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LockDemoViewController.h; sourceTree = "<group>"; };
+		47609CE31C58D54500C0390A /* LockDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LockDemoViewController.m; sourceTree = "<group>"; };
+		47609CE41C58D54500C0390A /* LockDemoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LockDemoViewController.xib; sourceTree = "<group>"; };
+		47609CEC1C58D94700C0390A /* BViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BViewController.h; sourceTree = "<group>"; };
+		47609CED1C58D94700C0390A /* BViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +69,13 @@
 		47609CC51C58D40D00C0390A /* XappTimeout-Master */ = {
 			isa = PBXGroup;
 			children = (
+				47609CDD1C58D44B00C0390A /* XappTimeout */,
 				47609CC91C58D40D00C0390A /* AppDelegate.h */,
 				47609CCA1C58D40D00C0390A /* AppDelegate.m */,
 				47609CCC1C58D40D00C0390A /* ViewController.h */,
 				47609CCD1C58D40D00C0390A /* ViewController.m */,
+				47609CEC1C58D94700C0390A /* BViewController.h */,
+				47609CED1C58D94700C0390A /* BViewController.m */,
 				47609CCF1C58D40D00C0390A /* Main.storyboard */,
 				47609CD21C58D40D00C0390A /* Assets.xcassets */,
 				47609CD41C58D40D00C0390A /* LaunchScreen.storyboard */,
@@ -77,6 +91,26 @@
 				47609CC71C58D40D00C0390A /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		47609CDD1C58D44B00C0390A /* XappTimeout */ = {
+			isa = PBXGroup;
+			children = (
+				47609CE11C58D50200C0390A /* LockView */,
+				47609CDE1C58D45B00C0390A /* XappTimeout.h */,
+				47609CDF1C58D45B00C0390A /* XappTimeout.m */,
+			);
+			path = XappTimeout;
+			sourceTree = "<group>";
+		};
+		47609CE11C58D50200C0390A /* LockView */ = {
+			isa = PBXGroup;
+			children = (
+				47609CE21C58D54500C0390A /* LockDemoViewController.h */,
+				47609CE31C58D54500C0390A /* LockDemoViewController.m */,
+				47609CE41C58D54500C0390A /* LockDemoViewController.xib */,
+			);
+			name = LockView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,6 +170,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				47609CE61C58D54500C0390A /* LockDemoViewController.xib in Resources */,
 				47609CD61C58D40D00C0390A /* LaunchScreen.storyboard in Resources */,
 				47609CD31C58D40D00C0390A /* Assets.xcassets in Resources */,
 				47609CD11C58D40D00C0390A /* Main.storyboard in Resources */,
@@ -149,9 +184,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				47609CE01C58D45B00C0390A /* XappTimeout.m in Sources */,
+				47609CEE1C58D94700C0390A /* BViewController.m in Sources */,
 				47609CCE1C58D40D00C0390A /* ViewController.m in Sources */,
 				47609CCB1C58D40D00C0390A /* AppDelegate.m in Sources */,
 				47609CC81C58D40D00C0390A /* main.m in Sources */,
+				47609CE51C58D54500C0390A /* LockDemoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
