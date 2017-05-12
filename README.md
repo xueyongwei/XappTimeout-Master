@@ -7,6 +7,6 @@
 2. 在Supporting Files目录下的main.m文件里        
 3. 替换         
 <code>return UIApplicationMain(argc, nil, NSStringFromClass([AppDelegate class]));        </code> 
-为        
+为  <p>      
 <code>return UIApplicationMain(argc, argv,NSStringFromClass([XappTimeout class]) , NSStringFromClass([AppDelegate class])); </code>      
 3. 在XappTimeoutwen文件夹下XappTimeoutwen.m文件的最下方-(void)XtimeoutAction方法里更改自己的目的。      
