@@ -12,5 +12,5 @@ return UIApplicationMain(argc, nil, NSStringFromClass([AppDelegate class]));
 <br> 为<br>
 <code>
 return UIApplicationMain(argc, argv,NSStringFromClass([XappTimeout class]) , NSStringFromClass([AppDelegate class])); 
-</code>      
+</code>  <br>    
 3. 在XappTimeoutwen文件夹下XappTimeoutwen.m文件的最下方-(void)XtimeoutAction方法里更改自己的目的。      
